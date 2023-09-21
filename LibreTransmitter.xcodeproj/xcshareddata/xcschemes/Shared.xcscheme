@@ -55,7 +55,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "432B0E911CDFC3C50045347B"
+               BlueprintIdentifier = "8DF9086D2ABC889A004618D3"
                BuildableName = "LibreTransmitterTests.xctest"
                BlueprintName = "LibreTransmitterTests"
                ReferencedContainer = "container:LibreTransmitter.xcodeproj">
