@@ -112,7 +112,6 @@
 		43A8EC9D210E68CE00A81379 /* LibreTransmitterManagerV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC9C210E68CE00A81379 /* LibreTransmitterManagerV3.swift */; };
 		43AB511B21330D1400B3D58D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43AB511921330D1400B3D58D /* Localizable.strings */; };
 		43AB5127213315D300B3D58D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43AB5125213315D300B3D58D /* Localizable.strings */; };
-		8DF908712ABC889A004618D3 /* LibreTransmitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF908702ABC889A004618D3 /* LibreTransmitterTests.swift */; };
 		8DF908722ABC889A004618D3 /* LibreTransmitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432B0E881CDFC3C50045347B /* LibreTransmitter.framework */; };
 		8DF9087A2ABC8AF7004618D3 /* LibreTransmitterMetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF908792ABC8AF7004618D3 /* LibreTransmitterMetadataTests.swift */; };
 		B40BF26623ABD4E700A43CEE /* LibreTransmitterPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26523ABD4E700A43CEE /* LibreTransmitterPlugin.swift */; };
@@ -338,7 +337,6 @@
 		7D9BF12F2336FFAF005DCFD6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7D9BF1302336FFAF005DCFD6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8DF9086E2ABC889A004618D3 /* LibreTransmitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibreTransmitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DF908702ABC889A004618D3 /* LibreTransmitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreTransmitterTests.swift; sourceTree = "<group>"; };
 		8DF908792ABC8AF7004618D3 /* LibreTransmitterMetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreTransmitterMetadataTests.swift; sourceTree = "<group>"; };
 		A9ED4DAE225EB9390080DEBA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		B40BF25E23ABD47400A43CEE /* LibreTransmitterPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibreTransmitterPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -625,7 +623,6 @@
 				43A8EC83210E664300A81379 /* LibreTransmitterUI */,
 				B40BF25F23ABD47400A43CEE /* LibreTransmitterPlugin */,
 				C1BDBAE12A4397AA00A787D1 /* LibreDemoPlugin */,
-				8DF9086F2ABC889A004618D3 /* LibreTransmitterTests */,
 				432B0E891CDFC3C50045347B /* Products */,
 				43A8EC7A210E661300A81379 /* Frameworks */,
 			);
@@ -707,14 +704,6 @@
 				27850CDF25672C0C0020D109 /* Settings */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		8DF9086F2ABC889A004618D3 /* LibreTransmitterTests */ = {
-			isa = PBXGroup;
-			children = (
-				8DF908702ABC889A004618D3 /* LibreTransmitterTests.swift */,
-			);
-			path = LibreTransmitterTests;
 			sourceTree = "<group>";
 		};
 		8DF908782ABC8AD4004618D3 /* Bluetooth */ = {
@@ -1136,7 +1125,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF908712ABC889A004618D3 /* LibreTransmitterTests.swift in Sources */,
 				8DF9087A2ABC8AF7004618D3 /* LibreTransmitterMetadataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
